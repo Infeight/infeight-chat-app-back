@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chatbox">
+        <div class="total-users" id="total-users"></div>
+        <div class="logo" id="logo"><p id="logoname" value="1">COMMUNE</p>
+
+        <img src="send-svgrepo-com.png" id="logoimg" alt=""></div> 
+        <div class="cont"></div>
+        <div class="users" id="users">
+      
+           
+        </div>
+
+        <!-- <% chatmap.forEach((v,k)=>{%>
+            <div class="chatknj" id="chatknj"> <%-v%> <%-k%> </div>
+        <%console.log(v,k)%>
+      <%  }) %> -->
+       <textarea placeholder="Send personal message!!!" type="text" id="personalmsg"> </textarea>
+
+       
+        
+        <div class="chatarea" id="chatarea">
+            
+                <div class="username" id="username"><%-username%></div>
+                <div id="msgs-container" class="msgs-container"></div>
+                
+          
+            <input type="text" id="message" placeholder="Send a group message!!!">
+            <button id="send"> <img src="/sending-mail.png" alt=""></button>
+        </div>
+    </div>
+       
+</body>
+<script src="socket.io/socket.io.js"></script>
+<script src="/js/socket.js"></script>
+</html>
