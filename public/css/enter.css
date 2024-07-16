@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(0, 0, 40);
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 15vh;
+    color: white;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo img{
+    height: 180%;
+}
+.newuser{
+    top: 12vw;
+    WIDTH: 15VW;
+    height: 2vh;
+    color: white;
+    position: relative;
+    left: 17vw;
+    font-size: 1.7vw;
+    font-family: cursive;
+}
+.welcome{
+    top: 13vw;
+    WIDTH: 5VW;
+    height: 2vh;
+    color: white;
+    position: relative;
+    left: 20vw;
+    font-size: 2vw;
+    font-family: cursive;
+}
+.loginform{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 17vw;
+}
+.addr-cont{
+    position: relative;
+    top: -2.2vh;
+    
+    width: 20vw;
+    height: 30vh;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    
+}
+
+login-box {
+    display: flex;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginimg
+{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+ 
+    left: 50vw;
+    top: -15vh;
+}
+.login-cred{
+    width: 18vw;
+    height: 3vw;
+    margin: 20px 18px;
+    border-radius: 5px;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+.info{
+    color: white;
+   
+    position: relative;
+    top: 10vw;
+    left: 32vw;
+    width: 40vw;
+    font-family: fantasy;
+    font-size: -webkit-xxx-large;
+}
+
+#loginbtn {
+    position: relative;
+    top: 1vw;
+    left: 5.3vw;
+    height: 4vh;
+    width: 10vw;
+    font-weight: 600;
+    border-radius: 5px;
+}
