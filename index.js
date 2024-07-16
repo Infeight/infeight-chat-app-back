@@ -1,6 +1,7 @@
+ const dotenv = require("dotenv").config();
 const express = require('express');
 const serverless = require('serverless-http')
-var PORT = 5000;
+const PORT = process.env.port || 5001
 const path = require("path")
 const app = express();
 const router = express.Router()
@@ -14,6 +15,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")))
 app.use(express.urlencoded({ extended: false }))
 app.set('view engine', 'ejs')
+app.set('views','../views')
 
 const server = app.listen(PORT, () => {
     console.log(`app started on ${PORT}`)
@@ -89,7 +91,7 @@ io.on('connection', (socket) => {
               }
   else{
     chatmap.set(sockt,usersnamest)
-    // console.log(chatmap)
+  
     chatnames.add(chatmap.get(sockt))
     chatmap.forEach((v,k )=>{
         socket.emit("userids",v,k)
@@ -121,6 +123,7 @@ app.post('/login', async (req, res) => {
             if (data.password === username2.password) {
 
                 res.render('index',{username:username2.username,chatmap:chatmap})
+                // res.sendFile(path.join(__dirname, '../public/templates/index.html'))
                 // console.log(noofusers)
                 
            
