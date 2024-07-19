@@ -153,8 +153,8 @@ offset-rotate: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 91vh;
-    position: relative;
+    top: 100vh;
+    position: sticky;
 }
 #message{
     position: relative;
