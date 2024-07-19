@@ -1,0 +1,1270 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@media screen and (min-width:1025px) {
+    @media screen and (max-width:1200px) {
+        .username{
+            height: 3vw;
+            font-size: 2.5vw;
+            box-shadow: black 0px 5px 10px 0px;
+        }
+        .chat-ideas{
+            width: 100%;
+            height: 4vw;
+            font-size: 2.5vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: nunito;
+            font-weight: 600;
+            color: #00003b;
+            position: absolute;
+            top: 8vw;
+        }
+        
+
+        .communeimgcont{
+            width: 100%;
+            height: 34vw;
+            z-index: 1;
+            position: relative;
+            top: 0vw;
+        }
+        #communeimg-img{
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            position: relative;
+            transform: none;
+            offset-path: none;
+            left: 0;
+            top: 0;
+        }
+        .logo{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40vw;
+            top: 0;
+            left: 0;
+            position: absolute;
+            border-radius: 0;
+            box-shadow: 0px 0px 0px;
+            background-color: #00003b;
+        }
+        .logo p{
+            top: 0vw;
+            left: 0;
+            font-size: 4vw;
+            margin: 0;
+            position: relative;
+        }
+        .total-users{
+            top: 29vw; 
+            position: relative;
+            top: 0;
+            left: 0;
+            box-shadow: 0 0 10px inset black;
+            font-family: system-ui;
+            width: fit-content;
+            box-sizing: border-box;
+            padding: 9px;
+            height: 5vw;
+            font-size: 2vw;
+            font-weight: 500;
+            background-color: transparent;
+        }
+        .users {
+            top: 0vw;
+            left: 0;
+          height: 40vh;
+            width: 35vw;
+           background-color: transparent;
+            position: relative;
+            box-shadow: 0px 0px 15px inset black;
+        }
+        .user-list{
+            width: 94%;
+            padding: 0;
+            height: 4vw;
+            font-size: 2.5vw;
+            display: flex;
+            align-items: center;
+            padding-left: 1vw;
+            box-sizing: border-box;
+
+        }
+        #opencommune{
+            display: none;
+        }
+        .chatarea{
+          box-shadow:   inset 0px 0px 10px 5px black;
+          background-color: #00003b;
+        }
+        .msgs-container{
+            height: 100vh;
+            box-shadow: inset 0px 0px 10px 0px black;
+        }
+        #message{
+            font-size: 2vw;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            border: none;
+            outline: none;
+        }
+        #send{
+            height: 100%;
+            width: 4.5vw;
+            top: 0;
+            position: relative;
+            left: 0;
+            border: none;
+
+        }
+        
+        .message-btn-cont {
+            width: 99%;
+            height: 4vw;
+            display: flex;
+            position: relative;
+            top: 94vh;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+
+        .username{
+            font-size: 2.5vw;
+            font-family: "Nunito", sans-serif;
+            font-weight: 800;
+            box-shadow: 0 0 0;
+        }
+        .msg-bar-right{
+            width: fit-content;
+            font-size: 2vw;
+            font-family: system-ui;
+            display: flex;
+            align-items: baseline;
+            margin-top: 0.5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            padding: 5px 12px;
+            margin-bottom: 0.5vw;
+            color: #00003b;
+            background-color: #fff;
+        }
+        #timedisp{
+            position: relative;
+            width: 6vw;
+            height: 2vh;
+            font-size: 1.2vw;
+            left: 1vw;
+            top: 0vh;
+            margin-left: auto;
+        }
+        #userdisp{
+            position: relative;
+            left: 0;
+            top: 0;
+            width: fit-content;
+            margin-left: 2vw;
+        }
+        .msg-bar-left{
+            width: fit-content;
+            font-size: 2vw;
+            font-family: system-ui;
+            display: flex;
+            align-items: baseline;
+            margin-top: 0.5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            padding: 5px 12px;
+            margin-bottom: 0.5vw;
+            color: #00003b;
+            background-color: #ffd700;
+        }
+        #timedisp1{
+            position: relative;
+            width: 6vw;
+            height: 2vh;
+            font-size: 1.2vw;
+            left: 1vw;
+            top: 0vh;
+            margin-left: auto;
+        }
+        #userdisp1{
+            position: relative;
+            left: 0;
+            top: 0;
+            width: fit-content;
+            margin-left: 2vw;
+        }
+        .user-list{
+            font-size: 3vw;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            left: 0;
+            margin: 0.5vw auto;
+            width: 34vw;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .username7{
+            width: 60vw;
+        }
+        .whisper-btn{
+            background-size: 4.5vw;
+            background-position-x: 1vw;
+            position: relative;
+            top: -65%;
+            left: 13vw;
+            margin: -1vw;
+            width: 6vw;
+            height: 2.5vw;
+            z-index: 3;
+        }
+        .personalmsgin{
+            box-sizing: border-box;
+            width: 32vw;
+            height: 3vw;
+            font-size: 2vw;
+            left: 0;
+            top: 0;
+        }
+        #personalmsgcont{
+            width: fit-content;
+            font-size: 2vw;
+            padding-left: 5vw;
+            font-family: system-ui;
+            background-size: 5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            margin: 1vw;
+            left: 0vw;
+        }
+        #personalmsgsender{
+            z-index: 1;
+            position: relative;
+            font-size: 1.5vw;
+            top: 0;
+            left: 0;
+        }
+
+        
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .chatbox{
+        position: inherit;
+        width: 0vw;
+        height: 100vh;
+        z-index: 1;
+        background-image: url('../images/istockphoto-1215293908-612x612.jpg');
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition-duration: 0.4s;
+    }
+    .chat-ideas{
+        width: 100%;
+        height: 12vw;
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: nunito;
+        font-weight: 600;
+        color: #00003b;
+        top:0 ;
+    }
+    #opencommune{
+        position: relative;
+        left: 0vw;
+        font-size: 4vw;
+        background: #ffd700;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px;
+        height: 8vw;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        transition-duration: 0.5s;
+        animation: opencommune-btn 1s infinite ease;    
+    }
+    #opencommune i{
+        font-size: 4.5vw;
+    }
+    @keyframes opencommune-btn {
+        0%{
+            transform:rotateZ(2deg);
+        }
+        10%{
+            transform:rotateZ(-2deg);
+        }
+        20%{
+            transform:rotateZ(2deg);
+        }
+        30%{
+            transform:rotateZ(-2deg);
+        }
+        40%{
+            transform:rotateZ(2deg);
+        }
+        50%{
+            transform:rotateZ(-2deg);
+        }
+        60%{
+            transform:rotateZ(2deg);
+        }
+        70%{
+            transform:rotateZ(-2deg);
+        }
+        80%{
+            transform:rotateZ(2deg);
+        }
+        90%{
+            transform:rotateZ(-2deg);
+        }
+        100%{
+            transform:rotateZ(2deg);
+        }
+    }
+    .communeimgcont{
+        width: 100%;
+    height: 90vw;
+   z-index: 1;
+    position: relative;
+    top: 0vw;
+    }
+    #communeimg-img{
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+        position: relative;
+        transform: none;
+        offset-path: none;
+        left: 0;
+        top: 0;
+    }
+    .logo{
+        background-color: transparent;
+        backdrop-filter: blur(35px);
+        border-radius: 0;
+    top: 0vw;
+    width: 80vw;
+    height: 100vh;
+    left: 0;
+    box-shadow:  1px 1px 10px 4px black;
+    position: relative;
+    z-index: 3;
+    flex-direction: column;
+    justify-content: end;
+    }
+    .logo p{
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 11vw;
+        box-sizing: border-box;
+        padding-left: 1.5vw;
+        margin: 4vw auto;
+    }
+    .logo img{
+        width: 10vw;
+    }
+    .total-users{
+        margin: 5vw auto;
+        position: relative;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        height: 15vw;
+        left: 0vw;
+        top: 0;
+        font-size: 5vw;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-shadow: 1px 1px 10px 0px black inset;
+        background-color: transparent;
+    }
+    .users{
+        background-color: transparent;
+        margin: 5vw auto;
+        position: relative;
+        width: 75vw;
+        height: 70vw;
+        top: 0;
+        left: 0;
+        box-shadow: 1px 1px 10px 3px black inset;
+    }
+    .user-list{
+        font-size: 6vw;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        left: 0;
+        margin: 1vw auto;
+        width: 70vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .username7{
+        width: 60vw;
+    }
+    .whisper-btn{
+        background-size: 10vw;
+        background-position-x: 1.5vw;
+        position: relative;
+        top: -65%;
+        left: 26vw;
+        margin: -4vw;
+        width: 12vw;
+        height: 6vw;
+        z-index: 3;
+    }
+    .personalmsgin{
+        box-sizing: border-box;
+        width: 65vw;
+        height: 9vw;
+        font-size: 4.5vw;
+        left: 0;
+        top: 0;
+    }
+    .chatarea{
+        width: 100vw;
+        left: 0;
+        box-shadow: inset 0px 0px 10px 2px black;
+        z-index: 0;
+        top: 0;
+        background-color: #00003b;
+    }
+    .username-hold{
+        width: 100vw;
+        display: flex;
+        height: 12vw;
+        background-color: aliceblue;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 4vw;
+    }
+    .username{
+        position: relative;
+        width: fit-content;
+        min-width:50vw;
+        max-width: 50vw;
+        overflow: hidden;
+        height: 10vw;
+        font-family: "Nunito", sans-serif;
+        letter-spacing: 0.4vw;
+        font-size: 8vw;
+        box-shadow: black 0px 0px 0px 0px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        justify-content: left;
+        background-color: transparent;
+    }
+   
+    .msgs-container{
+        box-shadow: 0px 0px 0px 0px black;
+        width: 100vw;
+        height: 87;
+        top: 11vw;
+
+    }
+    .message-btn-cont{
+        position: relative;
+        top: 88.5vh;
+        height: 5vh;
+        width: 100vw;
+    }
+    #message{
+        top: 0;
+        width: 88%;
+        height: 100%;
+        font-size: 5.5vw;
+        box-sizing: border-box;
+        border: 0;
+        outline: 0;
+        box-shadow: 0 0 0 ;
+    }
+    #send{
+        width: 12%;
+        top: 0;
+        left: 88%;
+        height: 100%;
+        border: none;
+    }
+    #personalmsgcont{
+        width: fit-content;
+        font-size: 4.5vw;
+        background-size: 11.5vw;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        padding-left: 15vw;
+         left: 2vw;
+         max-width: 50vw;
+         overflow-wrap: anywhere;
+    }
+    #personalmsgcont:hover{
+        
+    }
+    #personalmsgsender{
+        z-index: 1;
+        font-family: monospace;
+        font-weight: 0;
+        position: relative;
+        font-size:4vw;
+        margin-left: 0vw;
+        color: #f80032;
+       left: 0;
+       top: 0;
+    }
+    .msg-bar-right{
+        right: -1vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        font-size: 4.5vw;
+        height: fit-content;
+        padding: 1vw;
+        box-sizing: border-box;
+        margin: 2vw;
+        margin-left: auto;
+        margin-right: 3vw;
+        font-family: system-ui;
+        max-width: 90vw;
+        overflow-wrap: anywhere;
+        padding-left: 3vw;
+        background-color: #fff;
+        color: #00003b;
+    }
+    #timedisp{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        font-size: 3.5vw;
+        margin: 0 2.5vw;
+        min-width: max-content;
+        top: 0vh;
+        padding-bottom: 0;
+        right: 0;
+    }
+    #userdisp{
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 4vw;
+        min-width: max-content;
+        box-sizing: border-box;
+        padding: 0.5vw;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 2.5vw;
+    }
+    
+    .msg-bar-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        font-size: 4.5vw;
+        height: fit-content;
+        padding: 1vw;
+        box-sizing: border-box;
+        margin: 2vw;
+        margin-right: auto;
+        left: -1vw;
+        font-family: system-ui;
+        max-width: 90vw;
+        overflow-wrap: anywhere;
+        padding-left: 3vw;
+        background-color: #ffd700;
+        color: #00003b;
+
+    }
+    #timedisp1{
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 3.5vw;
+        min-width: max-content;
+        box-sizing: border-box;
+        padding: 0.5vw;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 2.5vw;
+    }
+    #userdisp1{
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 4vw;
+        min-width: max-content;
+        box-sizing: border-box;
+        padding: 0.5vw;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 2.5vw;
+    }
+    
+}
+
+@media screen and (min-width:700px) {
+    @media screen and (max-width:1024px) {
+        .username{
+            height: 3vw;
+            font-size: 2.5vw;
+            box-shadow: black 0px 5px 10px 0px;
+        }
+        .chat-ideas{
+            width: 100%;
+            height: 7vw;
+            font-size: 3.5vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: nunito;
+            font-weight: 600;
+            color: #00003b;
+            position: absolute;
+            top: 10vw;
+        }
+
+        .communeimgcont{
+            width: 100%;
+            height: 60vw;
+            z-index: 1;
+            position: relative;
+            top: 0vw;
+        }
+        #communeimg-img{
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            position: relative;
+            transform: none;
+            offset-path: none;
+            left: 0;
+            top: 0vw;
+        }
+        .logo{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40vw;
+            top: 0;
+            left: 0;
+            position: absolute;
+            border-radius: 0;
+            box-shadow: 0px 0px 0px;
+            background-color: #00003b;
+        }
+        .logo p{
+            top: 0vw;
+            left: 0;
+            font-size: 5vw;
+            margin: 0;
+            position: relative;
+        }
+        .total-users{
+            top: 29vw; 
+            position: relative;
+            top: 0;
+            left: 0;
+            box-shadow: 0 0 10px inset black;
+            font-family: system-ui;
+            width: fit-content;
+            box-sizing: border-box;
+            padding: 9px;
+            height: 6vw;
+            font-size: 2.5vw;
+            font-weight: 500;
+            background-color: transparent;
+        }
+        .users {
+            top: 0vw;
+            left: 0;
+          height: 49vh;
+            width: 37vw;
+           background-color: transparent;
+            position: relative;
+            box-shadow: 0px 0px 15px inset black;
+        }
+        .user-list{
+            font-size: 3.5vw;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            left: 0;
+            margin: 0.5vw auto;
+            width: 35vw;
+            height: 5vh;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        }
+        #opencommune{
+            display: none;
+        }
+        .chatarea{
+          box-shadow:   inset 0px 0px 10px 5px black;
+          background-color: #00003b;
+        }
+        .msgs-container{
+            height: 100vh;
+            top: 5vw;
+            box-shadow: inset 0px 0px 10px 0px black;
+        }
+        #message{
+            font-size: 3vw;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            border: none;
+            outline: none;
+            box-shadow: 0 0 0 ;
+        }
+        #send{
+            height: 100%;
+            width: 6.5vw;
+            top: 0;
+            position: relative;
+            left: 0;
+            border: none;
+
+        }
+        
+        .message-btn-cont {
+            width: 99%;
+            height: 5.5vw;
+            display: flex;
+            position: relative;
+            top: 94vh;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+
+        .username{
+            font-size: 3.5vw;
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            box-shadow: 0 0 0;
+            height: 4.5vw;
+        }
+        .msg-bar-right{
+            width: fit-content;
+            font-size: 2.5vw;
+            font-family: system-ui;
+            display: flex;
+            align-items: center;
+            margin-top: 0.5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            padding: 5px 12px;
+            margin-bottom: 0.5vw;
+            color: #00003b;
+            background-color: #fff;
+        }
+        #timedisp{
+            position: relative;
+            width: 6vw;
+            height: 2vh;
+            font-size: 1.7vw;
+            left: 1vw;
+            top: 0vh;
+            margin-left: auto;
+            padding-bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+        #userdisp{
+            position: relative;
+            left: 0;
+            top: 0;
+            width: fit-content;
+            margin-left: 2vw;
+            font-size: 2.2vw;
+        }
+        .msg-bar-left{
+            width: fit-content;
+            font-size: 2.5vw;
+            font-family: system-ui;
+            display: flex;
+            align-items: center;
+            margin-top: 0.5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            padding: 5px 12px;
+            margin-bottom: 0.5vw;
+            color: #00003b;
+            background-color: #ffd700;
+        }
+        #timedisp1{
+            position: relative;
+            width: 6vw;
+            height: 2vh;
+            font-size: 1.7vw;
+            left: 1vw;
+            top: 0vh;
+            margin-left: auto;
+            padding-bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+        #userdisp1{
+            position: relative;
+            left: 0;
+            top: 0;
+            width: fit-content;
+            margin-left: 2vw;
+            font-size: 2.2vw;
+        }
+        .user-list{
+        
+        }
+        .username7{
+            width: 60vw;
+        }
+        .whisper-btn{
+            background-size: 5.5vw;
+            background-position-x: 1vw;
+            position: relative;
+            top: -65%;
+            left: 12vw;
+            margin: -2vw;
+            width: 7vw;
+            height: 3.5vw;
+            z-index: 3;
+        }
+        .personalmsgin{
+            box-sizing: border-box;
+            width: 32vw;
+            height: 6vw;
+            font-size: 2.5vw;
+            left: 0;
+            top: 0;
+        }
+        
+        #personalmsgcont{
+            width: fit-content;
+            font-size: 2.5vw;
+            padding-left: 7vw;
+            font-family: system-ui;
+            background-size: 5vw;
+            max-width: 40vw;
+            overflow-wrap: anywhere;
+            margin: 1vw;
+            left: 0vw;
+        }
+        #personalmsgsender{
+            z-index: 1;
+            position: relative;
+            font-size: 2vw;
+            top: 0;
+            left: 0;
+        }
+
+    }
+    
+}
+
+@media screen and (min-width:481px) {
+    @media screen and (max-width:700px) {
+        
+        .chatbox{
+            position: inherit;
+            width: 0vw;
+            height: 100vh;
+            z-index: 1;
+            background-image: url('../images/istockphoto-1215293908-612x612.jpg');
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            transition-duration: 0.4s;
+        }
+        .chat-ideas{
+            width: 100%;
+            height: 10vw;
+            font-size: 6vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: nunito;
+            font-weight: 600;
+            color: #00003b;
+            top: 0;
+        }
+        #opencommune{
+            position: relative;
+            left: 0vw;
+            font-size: 4vw;
+            background: #ffd700;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px;
+            height: 8vw;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            transition-duration: 0.5s;
+            animation: opencommune-btn 1s infinite ease;    
+        }
+        #opencommune i{
+            font-size: 4.5vw;
+        }
+        @keyframes opencommune-btn {
+            0%{
+                transform:rotateZ(2deg);
+            }
+            10%{
+                transform:rotateZ(-2deg);
+            }
+            20%{
+                transform:rotateZ(2deg);
+            }
+            30%{
+                transform:rotateZ(-2deg);
+            }
+            40%{
+                transform:rotateZ(2deg);
+            }
+            50%{
+                transform:rotateZ(-2deg);
+            }
+            60%{
+                transform:rotateZ(2deg);
+            }
+            70%{
+                transform:rotateZ(-2deg);
+            }
+            80%{
+                transform:rotateZ(2deg);
+            }
+            90%{
+                transform:rotateZ(-2deg);
+            }
+            100%{
+                transform:rotateZ(2deg);
+            }
+        }
+        .communeimgcont{
+            width: 100%;
+        height: 52vw;
+       z-index: 1;
+        position: relative;
+        top: 0vw;
+        }
+        #communeimg-img{
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            position: relative;
+            transform: none;
+            offset-path: none;
+            left: 0;
+            top: 0;
+        }
+        .logo{
+            background-color: transparent;
+            backdrop-filter: blur(35px);
+            border-radius: 0;
+        top: 0vw;
+        width: 80vw;
+        height: 100vh;
+        left: 0;
+        box-shadow:  1px 1px 10px 4px black;
+        position: relative;
+        z-index: 3;
+        flex-direction: column;
+        justify-content: end;
+        }
+        .logo p{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-size: 11vw;
+            box-sizing: border-box;
+            padding-left: 1.5vw;
+            margin: 4vw auto;
+        }
+        .logo img{
+            width: 10vw;
+        }
+        .total-users{
+            margin: 5vw auto;
+            position: relative;
+            padding-top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60vw;
+            height: 15vw;
+            left: 0vw;
+            top: 0;
+            font-size: 5vw;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-shadow: 1px 1px 10px 0px black inset;
+            background-color: transparent;
+        }
+        .users{
+            background-color: transparent;
+            margin: 5vw auto;
+            position: relative;
+            width: 75vw;
+            height: 70vw;
+            top: 0;
+            left: 0;
+            box-shadow: 1px 1px 10px 3px black inset;
+        }
+        .user-list{
+            font-size: 6vw;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            left: 0;
+            margin: 2vw auto;
+            width: 70vw;
+            height: 5vh;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .username7{
+            width: 60vw;
+        }
+        .whisper-btn{
+            background-size: 9vw;
+            background-position-x: 1.5vw;
+            position: relative;
+            top: -75%;
+            left: 26vw;
+            margin: -2vw;
+            width: 12vw;
+            height: 5vw;
+            z-index: 3;
+        }
+        .personalmsgin{
+            box-sizing: border-box;
+            width: 65vw;
+            height: 9vw;
+            font-size: 4.5vw;
+            left: 0;
+            top: 0;
+        }
+        .chatarea{
+            width: 100vw;
+            left: 0;
+            box-shadow: inset 0px 0px 10px 2px black;
+            z-index: 0;
+            top: 0;
+            background-color: #00003b;
+        }
+        .username-hold{
+            width: 100vw;
+            display: flex;
+            height: 10vw;
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 0 4vw;
+        }
+        .username{
+            position: relative;
+            width: fit-content;
+            min-width:50vw;
+            max-width: 50vw;
+            overflow: hidden;
+            height: 10vw;
+            font-family: "Nunito", sans-serif;
+            letter-spacing: 0.4vw;
+            font-size: 8vw;
+            box-shadow: black 0px 0px 0px 0px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            padding-left: 0;
+            justify-content: left;
+            background-color: transparent;
+        }
+       
+        .msgs-container{
+            box-shadow: 0px 0px 0px 0px black;
+            width: 100vw;
+            height: 87;
+            top: 11vw;
+    
+        }
+        .message-btn-cont{
+            position: relative;
+            top: 88vh;
+            height: 5vh;
+            width: 100vw;
+        }
+        #message{
+            top: 0;
+            width: 88%;
+            height: 100%;
+            font-size: 5.5vw;
+            box-sizing: border-box;
+            border: 0;
+            outline: 0;
+            box-shadow: 0 0 0 ;
+        }
+        #send{
+            width: 12%;
+            top: 0;
+            left: 0%;
+            height: 100%;
+            border: none;
+        }
+        #personalmsgcont{
+            width: fit-content;
+            font-size: 4.5vw;
+            background-size: 11.5vw;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center; */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            padding-left: 15vw;
+             left: 2vw;
+             max-width: 50vw;
+             overflow-wrap: anywhere;
+        }
+        #personalmsgcont:hover{
+            
+        }
+        #personalmsgsender{
+            z-index: 1;
+            font-family: monospace;
+            font-weight: 0;
+            position: relative;
+            font-size:4vw;
+            margin-left: 0vw;
+            color: #f80032;
+           left: 0;
+           top: 0;
+        }
+        .msg-bar-right{
+            right: -1vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: fit-content;
+            font-size: 4.5vw;
+            height: fit-content;
+            padding: 1vw;
+            box-sizing: border-box;
+            margin: 2vw;
+            margin-left: auto;
+            margin-right: 3vw;
+            font-family: system-ui;
+            max-width: 90vw;
+            overflow-wrap: anywhere;
+            padding-left: 3vw;
+            background-color: #fff;
+            color: #00003b;
+        }
+        #timedisp{
+            position: relative;
+            width: fit-content;
+            height: fit-content;
+            font-size: 3.5vw;
+            margin: 0 2.5vw;
+            min-width: max-content;
+            top: 0vh;
+            padding-bottom: 0;
+            right: 0;
+        }
+        #userdisp{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-size: 4vw;
+            min-width: max-content;
+            box-sizing: border-box;
+            padding: 0.5vw;
+            width: fit-content;
+            height: fit-content;
+            margin: 0 2.5vw;
+        }
+        
+        .msg-bar-left{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: fit-content;
+            font-size: 4.5vw;
+            height: fit-content;
+            padding: 1vw;
+            box-sizing: border-box;
+            margin: 2vw;
+            margin-right: auto;
+            left: -1vw;
+            font-family: system-ui;
+            max-width: 90vw;
+            overflow-wrap: anywhere;
+            padding-left: 3vw;
+            background-color: #ffd700;
+            color: #00003b;
+    
+        }
+        #timedisp1{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-size: 3.5vw;
+            min-width: max-content;
+            box-sizing: border-box;
+            padding: 0.5vw;
+            width: fit-content;
+            height: fit-content;
+            margin: 0 2.5vw;
+        }
+        #userdisp1{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-size: 4vw;
+            min-width: max-content;
+            box-sizing: border-box;
+            padding: 0.5vw;
+            width: fit-content;
+            height: fit-content;
+            margin: 0 2.5vw;
+        }
+    }
+    
+}

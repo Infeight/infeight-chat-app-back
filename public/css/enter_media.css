@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+@media screen and (min-width:1025px) {
+    @media screen and (max-width:1200px) {
+        .logo{
+            width: 100vw;
+            height: 20vw;
+
+        }
+       
+        .welcome{
+            top: 0vw;
+            left: 0;
+            WIDTH: 12VW;
+            height: 4vw;
+            display: flex;
+            align-items: center;
+            /* color: aliceblue; */
+            justify-content: center;
+            font-size: 3vw;
+            font-family: nunito;
+            font-weight: 600;
+        }
+        .addr-cont{
+            width: 50vw;
+            height: 50vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .addr-cont form{
+           display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+        .login-cred {
+            width: 100%;
+            height: 3.5vw;
+            margin: 14px 0px;
+            border-radius: 5px;
+            font-size: 2vw;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .newuser{
+            width: fit-content;
+            height: 5vw;
+            color:#ffd700;
+            font-size: 2.5vw;
+            top: 0;
+            left: 0;
+
+        }
+        
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .logo{
+        height:50vw;
+        top: 0;
+    }
+    .addr-cont{
+        width: 70vw;
+        height: 70vw;
+   top: 0;
+    }
+    .welcome{
+        top: 0;
+        left: 0;
+        font-size: 3.5vw;
+        width: fit-content;
+        height: 14vw;
+        font-size: 7vw;
+
+
+    }
+    .loginform{
+        top: 00vw;
+
+    }
+    .addr-cont{
+        top: 0;
+    }
+    .addr-cont form{
+        width: 100%;
+        height: auto;
+        
+    }
+    .login-cred{
+        height: 10vw;
+        font-size: 5.5vw;
+    }
+    #loginbtn{
+        width: fit-content;
+        font-size: 4vw;
+        height: 8vw;
+        top: 5vw;
+    }
+    .newuser{
+        height: 10vw;
+        font-size: 5vw;
+        color: #ffd700;
+        top: 0;
+        width: fit-content;
+        left: 0;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    @media screen and (max-width: 1024px) {
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100vh;
+        }
+        .logo{
+            height: 40vw;
+        }
+        .loginform{
+            top: -8vw;
+        }
+        .addr-cont{
+            width: 60vw;
+            height: 40vh;
+            top: 0;
+        }
+        .addr-cont form{
+            width: 100%;
+
+        }
+        .welcome{
+            top: 0;
+            left: 0;
+            font-size: 4.5vw;
+            height: 6vh;
+            width: fit-content;
+        }
+        .login-cred{
+            height: 6.5vw;
+            font-size: 4vw;
+        }
+        #loginbtn{
+            width: fit-content;
+            height: fit-content;
+            font-size: 3vw;
+        }
+        .newuser{
+            width: fit-content;
+            height: fit-content;
+            font-size: 4vw;
+            left: 0;
+            top: 0;
+            color: #ffd700;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width:481px) {
+    @media screen and (max-width:700px) {
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .logo{
+            height:50vw;
+            top: 0;
+        }
+        .addr-cont{
+            width: 70vw;
+            height: 70vw;
+       top: 0;
+        }
+        .welcome{
+            top: 0;
+            left: 0;
+            font-size: 3.5vw;
+            width: fit-content;
+            height: 14vw;
+            font-size: 7vw;
+    
+    
+        }
+        .loginform{
+            top: 00vw;
+    
+        }
+        .addr-cont{
+            top: 0;
+        }
+        .addr-cont form{
+            width: 100%;
+            height: auto;
+            
+        }
+        .login-cred{
+            height: 10vw;
+            font-size: 5.5vw;
+        }
+        #loginbtn{
+            width: fit-content;
+            font-size: 4vw;
+            height: 8vw;
+            top: 5vw;
+        }
+        .newuser{
+            height: 10vw;
+            font-size: 5vw;
+            color: #ffd700;
+            top: 0;
+            width: fit-content;
+            left: 0;
+        }
+    }
+}
