@@ -147,13 +147,13 @@ app.post('/signup', async (req, res) => {
     try {
         if (data.username === username1.username) {
             if (data.password === username1.password) {
-                res.send("Already a user")
+                  res.render('index',{username:data.username,chatmap:chatmap})
             }
         }
     }
     catch {
         await user.insertMany(data)
-        res.send("Success")
+          res.render('index',{username:data.username,chatmap:chatmap})
     }
 })
 
