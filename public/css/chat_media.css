@@ -486,7 +486,7 @@
     .msgs-container{
         box-shadow: 0px 0px 0px 0px black;
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
         top: 0vw;
         z-index:-1;
 
@@ -738,7 +738,7 @@
           background-color: #00003b;
         }
         .msgs-container{
-            height: 100vh;
+            height: 95vh;
             top: 5vw;
             box-shadow: inset 0px 0px 10px 0px black;
         }
@@ -1125,7 +1125,7 @@
         .msgs-container{
             box-shadow: 0px 0px 0px 0px black;
             width: 100vw;
-            height: 100vh;
+            height: 95vh;
         top: 0vw;
         z-index:-1;
     
