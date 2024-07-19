@@ -131,8 +131,8 @@
             width: 99%;
             height: 4vw;
             display: flex;
-            position: relative;
-            top: 94vh;
+            position: sticky;
+            top: 100vh;
             background-color: aqua;
             justify-content: center;
             align-items: center;
@@ -490,8 +490,8 @@
 
     }
     .message-btn-cont{
-        position: relative;
-        top: 88.5vh;
+        position: sticky;
+        top: 100vh;
         height: 5vh;
         width: 100vw;
     }
@@ -765,8 +765,8 @@
             width: 99%;
             height: 5.5vw;
             display: flex;
-            position: relative;
-            top: 94vh;
+            position: sticky;
+            top: 100vh;
             background-color: aqua;
             justify-content: center;
             align-items: center;
@@ -1127,8 +1127,8 @@
     
         }
         .message-btn-cont{
-            position: relative;
-            top: 88vh;
+            position: sticky;
+            top: 100vh;
             height: 5vh;
             width: 100vw;
         }
