@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="/css/chat_media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="chatbox">
+        
+        <div class="logo" id="logo">
+            <div class="chat-ideas">Chat personal</div>
+            <div class="communeimgcont"><img id="communeimg-img" src="/images/communeimage.jpeg" alt=""></div>
+            <p id="logoname" value="1">COMMUNE</p>
+        
+        <img src="/images/send-svgrepo-com.png" id="logoimg" alt=""> 
+        <div class="total-users" id="total-users"></div>
+        <!-- <div class="cont"></div> -->
+        <div class="users" id="users">
+      
+           
+        </div>
+    </div>
+        <!-- <% chatmap.forEach((v,k)=>{%>
+            <div class="chatknj" id="chatknj"> <%-v%> <%-k%> </div>
+        <%console.log(v,k)%>
+      <%  }) %> -->
+       <textarea placeholder="Send personal message!!!" type="text" id="personalmsg"> </textarea>
+
+       
+        
+        <div class="chatarea" id="chatarea">
+            <div class="username-hold">
+                <div class="username" id="username"><%-username%></div>
+                <button id="opencommune" value="close">COMMUNE 🫂</button>
+            </div>
+                <div id="msgs-container" class="msgs-container"></div>
+                
+          <div class="message-btn-cont">
+            <input type="text" id="message" placeholder="Send a group message!!!">
+            <button id="send"> <img src="/images/sending-mail.png" alt=""></button>
+        </div>
+        </div>
+    </div>
+       
+</body>
+<script src="socket.io/socket.io.js"></script>
+<script src="/js/socket.js"></script>
+</html>
