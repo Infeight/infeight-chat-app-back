@@ -308,6 +308,7 @@ function submit() {
     msgdisplay.appendChild(username)
     const msgscontainer = document.getElementById("msgs-container")
     msgscontainer.appendChild(msgdisplay)
+    document.getElementById("message").value = ""
 }
 
 
