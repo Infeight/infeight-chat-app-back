@@ -60,7 +60,15 @@ socket.on("userids", (username, socketid) => {
             const sockid = document.getElementById(socketidlist.id).innerHTML;
             if(personalmsg!=""){  socket.emit("personalmsg", personalmsg, sockid, usersnames)}
           
-            userlist.value = 1
+            userlist.value = 1;
+
+             personalmsgin.value = "Sent 👍"
+
+                   setTimeout(()=>{
+                    personalmsgin.value = ""
+                   },1500)
+            
+
         }
 
        
